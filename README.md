@@ -26,7 +26,7 @@ $ gunzip <filename>
 
 ### 2. grep commands
 grep command handles search patterns called Regular Expression.
-####Find a word in a text file
+#### Find a word in a text file
 ```bash
 $ grep <word> <filename>
 ```
