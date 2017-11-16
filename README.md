@@ -32,6 +32,9 @@ $ grep <word> <filename>
 ```
 This command produces all the lines from the text file '<filename>' that contain the given word '<word>'.
 
-
+##### Searching multiple words in a text file
+```bash
+$ egrep 'word1|word2|word3' <filename>
+```
 
 
