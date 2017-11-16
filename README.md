@@ -30,7 +30,7 @@ grep command handles search patterns called Regular Expression.
 ```bash
 $ grep <word> <filename>
 ```
-This command produces all the lines from the text file '<filename>' that contain the given word '<word>'.
+This command produces all the lines from the text file <filename> that contain the given word <word>.
 
 ##### Searching multiple words in a text file
 ```bash
