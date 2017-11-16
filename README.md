@@ -32,6 +32,11 @@ $ grep <word> <filename>
 ```
 This command produces all the lines from the text file <filename> that contain the given word <word>.
 
+```bash
+$ grep -i <word> <filename>
+```
+-i ignores the upper and lower case distinction. It provides all the lines containing the word either in uppercase, lowercase or both.
+
 ##### Searching multiple words in a text file
 ```bash
 $ egrep 'word1|word2|word3' <filename>
