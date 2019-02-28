@@ -46,7 +46,7 @@ $ egrep 'word1|word2|word3' <filename>
 find command is used to locate specific file by name or extension.
 #### Find a file in current and sub-directories.
 ```bash
-$ find . -name filename.ext
+$ find . -name <filename>
 ```
 
 
