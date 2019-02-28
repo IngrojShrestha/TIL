@@ -49,4 +49,18 @@ find command is used to locate specific file by name or extension.
 $ find . -name <filename>
 ```
 
+#### Find all .txt files in the /home and sub-directories.
+```bash
+$ find /home -name *.txt
+```
+
+#### Find an empty file within the current directory.
+```bash
+$ find . -type f -empty
+```
+
+### 4. nohup commands
+
+
+
 
