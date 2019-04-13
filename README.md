@@ -61,6 +61,20 @@ $ find . -type f -empty
 
 ### 4. nohup commands
 
+nohup is a POSIX command to ignore the HUP (hangup) signal (wikipedia)
+
+* [Nohup Commands](https://linux.101hacks.com/unix/nohup-command/)
+* [Tail commands](https://linuxize.com/post/linux-tail-command/)
+
+Executing python script in background
+```bash
+$ nohup python script.py > script.log &
+```
+Watch log file for the changes
+```bash
+$ tail -f script.log
+```
+
 
 
 
