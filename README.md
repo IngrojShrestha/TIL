@@ -76,5 +76,8 @@ $ tail -f script.log
 ```
 
 
+### Download a single folder or directory from a GitHub repo 
+* [GitZip](http://kinolien.github.io/gitzip/)
+* [DownGit](https://minhaskamal.github.io/DownGit/#/home)
 
 
