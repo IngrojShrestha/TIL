@@ -75,6 +75,17 @@ Watch log file for the changes
 $ tail -f script.log
 ```
 
+### 5. vi commands
+
+```
+$ vi +commandHere fileName
+$ vi +/searchTermHere fileName
+$ vi +/LineNumberHere fileName
+```
+
+```
+$ vi +/artificial sample.txt
+```
 
 ### Download a single folder or directory from a GitHub repo 
 * [GitZip](http://kinolien.github.io/gitzip/)
