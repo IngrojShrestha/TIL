@@ -95,39 +95,39 @@ $ vi +/artificial sample.txt
 |$                                 |Begining of the line
 |^                                 |End of the line
 |:n                                |Goto Line number **n**
-G                                 |Goto the last line
-:1                                |Goto the first line
+|G                                 |Goto the last line
+|:1                                |Goto the first line
 
-:set number                       |Display line number
+|:set number                       |Display line number
 
-:set nonumber                     Hide line number
-:set hlsearch                     Highlight Search
-:nohl search                      Remove the highlight of the previous search
+|:set nonumber                     |Hide line number
+|:set hlsearch                     |Highlight Search
+|:nohl search                      |Remove the highlight of the previous search
 
-:?<search_term/search_pattern>    Search backward
-:/<search_term/search_pattern>    Search forward
+|:?<search_term/search_pattern>    |Search backward
+|:/<search_term/search_pattern>    |Search forward
 
-n                                 Go directly to the next occurrence of the word in backwards
-N                                 Go directly to the next occurrence of the word in forwards
+|n                                 |Go directly to the next occurrence of the word in backwards
+|N                                 |Go directly to the next occurrence of the word in forwards
 
-*                                 Find all occurrences of the word that is under the cursor
+|*                                 |Find all occurrences of the word that is under the cursor
 
-:set mouse=a                      Enable mouse
-:set mouse-=a                     Disable mouse
+|:set mouse=a                      |Enable mouse
+|:set mouse-=a                     |Disable mouse
   
-:set paste                        Enable paste
-:set nopaste                      Disable paste
-Ctrl+C/Ctrl+V                     Copy/Paste
-u                                 Undo
-r                                 Redo
-dd                                Delete the line
+|:set paste                        |Enable paste
+|:set nopaste                      |Disable paste
+|Ctrl+C/Ctrl+V                     |Copy/Paste
+|u                                 |Undo
+|r                                 |Redo
+|dd                                |Delete the line
 
-v                                 Select from where your cursor is
-V                                 Select the entire line
-y                                 Copy selected text
-d                                 Cut selected text
-P                                 Paste it before your cursor
-p                                 Paste it after your cursor
+|v                                 |Select from where your cursor is
+|V                                 |Select the entire line
+|y                                 |Copy selected text
+|d                                 |Cut selected text
+|P                                 |Paste it before your cursor
+|p                                 |Paste it after your cursor
 
 
 
