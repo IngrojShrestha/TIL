@@ -90,13 +90,16 @@ $ vi +/artificial sample.txt
 ```
 
 ##### Shorcuts
-$                                 Begining of the line
-^                                 End of the line
-:n                                Goto Line number **n**
-G                                 Goto the last line
-:1                                Goto the first line
+|Shorcuts|Description|
+| ------------- | ------------- |
+|$                                 |Begining of the line
+|^                                 |End of the line
+|:n                                |Goto Line number **n**
+G                                 |Goto the last line
+:1                                |Goto the first line
 
-:set number                       Display line number
+:set number                       |Display line number
+
 :set nonumber                     Hide line number
 :set hlsearch                     Highlight Search
 :nohl search                      Remove the highlight of the previous search
