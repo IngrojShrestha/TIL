@@ -99,10 +99,6 @@ $ vi +/artificial sample.txt
 |:1                                |Goto the first line
 |:set number                       |Display line number
 |:set nonumber                     |Hide line number
-|:set hlsearch                     |Highlight Search
-|:nohl search                      |Remove the highlight of the previous search
-|:?<search_term/search_pattern>    |Search backward
-|:/<search_term/search_pattern>    |Search forward
 |n                                 |Go directly to the next occurrence of the word in backwards
 |N                                 |Go directly to the next occurrence of the word in forwards
 |*                                 |Find all occurrences of the word that is under the cursor
@@ -121,6 +117,10 @@ $ vi +/artificial sample.txt
 |d                                 |Cut selected text
 |P                                 |Paste it before your cursor
 |p                                 |Paste it after your cursor
+|:set hlsearch                     |Highlight Search
+|:nohl search                      |Remove the highlight of the previous search
+|:?<search_term/search_pattern>    |Search backward
+|:/<search_term/search_pattern>    |Search forward
 |:%s/old-string/new-string/        |Replace first occurrence of <old-string> with <new-string> on all lines  
 |:s/old-string/new-string/         |Replace first occurrence of <old-string> with <new-string> on current line
 |:2,8s/old-string/new-string/      |Replace first occurrence of <old-string> with <new-string> on lines 2 through 8 only
