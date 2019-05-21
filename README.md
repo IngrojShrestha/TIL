@@ -114,13 +114,19 @@ $ vi +/artificial sample.txt
 |u                                 |Undo
 |r                                 |Redo
 |dd                                |Delete the line
+|:1,$d                             |Delete all lines
 |v                                 |Select from where your cursor is
 |V                                 |Select the entire line
 |y                                 |Copy selected text
 |d                                 |Cut selected text
 |P                                 |Paste it before your cursor
 |p                                 |Paste it after your cursor
-
+|:%s/old-string/new-string/        |Replace first occurrence of <old-string> with <new-string> on all lines  
+|:s/old-string/new-string/         |Replace first occurrence of <old-string> with <new-string> on current line
+|:2,8s/old-string/new-string/      |Replace first occurrence of <old-string> with <new-string> on lines 2 through 8 only
+|:.,+100s/foo/bar/                 |Replace first occurrence of foo with bar starting at the current line for the next 100 lines
+|:%s/foo/bar/g                     |Replace all occurrences of word foo with bar on all lines, use the g option (which indicates all occurrences on a line).
+|:s/foo/bar/g                      |Replace all occurrences of word foo with bar on current line
 
 
 ### Download a single folder or directory from a GitHub repo 
