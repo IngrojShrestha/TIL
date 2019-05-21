@@ -94,6 +94,7 @@ $ vi +/artificial sample.txt
 | ------------- | ------------- |
 |^                                 |Begining of the line
 |$                                 |End of the line
+|Shift + Arrow(R/L)                |Move the cursor a word forward/backward
 |:n                                |Goto Line number **n**
 |G                                 |Goto the last line
 |:1                                |Goto the first line
