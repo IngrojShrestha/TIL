@@ -92,6 +92,7 @@ $ vi +/artificial sample.txt
 ##### Shorcuts
 |Shorcuts|Description|
 | ------------- | ------------- |
+|Cursor Movement                   |
 |^                                 |Begining of the line
 |$                                 |End of the line
 |:n                                |Goto Line number **n**
