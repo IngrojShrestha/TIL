@@ -112,6 +112,8 @@ Press the **N** key to go directly to the next occurrence of the word in forward
 ```
 :nohlsearch
 ```
+**Find all occurrences of the word that is under the cursor.**
+Press '*'.
 
 ### Download a single folder or directory from a GitHub repo 
 * [GitZip](http://kinolien.github.io/gitzip/)
