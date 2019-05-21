@@ -89,34 +89,46 @@ $ vi +/LineNumberHere fileName
 $ vi +/artificial sample.txt
 ```
 
-##### Search
+##### Shorcuts
+$                                 Begining of the line
+^                                 End of the line
+:n                                Goto Line number **n**
+G                                 Goto the last line
+:1                                Goto the first line
 
-###### search forward
-```
-:/<search_term/search_pattern>
-```
-Press the **n** key to go directly to the next occurrence of the word in backwards. 
+:set number                       Display line number
+:set nonumber                     Hide line number
+:set hlsearch                     Highlight Search
+:nohl search                      Remove the highlight of the previous search
 
-###### search backward
-```
-:?<search_term/search_pattern>
+:?<search_term/search_pattern>    Search backward
+:/<search_term/search_pattern>    Search forward
 
-```
-Press the **N** key to go directly to the next occurrence of the word in forward. 
+n                                 Go directly to the next occurrence of the word in backwards
+N                                 Go directly to the next occurrence of the word in forwards
 
-**Highlight Search**
-```
-:set hlsearch
-```
-**Remove the highlight of the previous search**
-```
-:nohlsearch
-```
-**Find all occurrences of the word that is under the cursor.**
-Press '*'.
+*                                 Find all occurrences of the word that is under the cursor
+
+:set mouse=a                      Enable mouse
+:set mouse-=a                     Disable mouse
+  
+:set paste                        Enable paste
+:set nopaste                      Disable paste
+Ctrl+C/Ctrl+V                     Copy/Paste
+u                                 Undo
+r                                 Redo
+dd                                Delete the line
+
+v                                 Select from where your cursor is
+V                                 Select the entire line
+y                                 Copy selected text
+d                                 Cut selected text
+P                                 Paste it before your cursor
+p                                 Paste it after your cursor
+
+
 
 ### Download a single folder or directory from a GitHub repo 
 * [GitZip](http://kinolien.github.io/gitzip/)
 * [DownGit](https://minhaskamal.github.io/DownGit/#/home)
-
 
