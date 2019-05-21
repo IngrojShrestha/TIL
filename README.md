@@ -87,6 +87,21 @@ $ vi +/LineNumberHere fileName
 $ vi +/artificial sample.txt
 ```
 
+##### Search
+
+###### search forward
+```
+:/<search_term/search_pattern>
+```
+Press the **n** key to go directly to the next occurrence of the word in backwards. 
+
+###### search backward
+```
+:?<search_term/search_pattern>
+
+```
+Press the **N** key to go directly to the next occurrence of the word in forward. 
+
 ### Download a single folder or directory from a GitHub repo 
 * [GitZip](http://kinolien.github.io/gitzip/)
 * [DownGit](https://minhaskamal.github.io/DownGit/#/home)
