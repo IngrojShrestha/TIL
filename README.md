@@ -104,6 +104,15 @@ Press the **n** key to go directly to the next occurrence of the word in backwar
 ```
 Press the **N** key to go directly to the next occurrence of the word in forward. 
 
+**Highlight Search**
+```
+:set hlsearch
+```
+**Remove the highlight of the previous search**
+```
+:nohlsearch
+```
+
 ### Download a single folder or directory from a GitHub repo 
 * [GitZip](http://kinolien.github.io/gitzip/)
 * [DownGit](https://minhaskamal.github.io/DownGit/#/home)
