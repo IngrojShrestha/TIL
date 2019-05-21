@@ -92,8 +92,8 @@ $ vi +/artificial sample.txt
 ##### Shorcuts
 |Shorcuts|Description|
 | ------------- | ------------- |
-|$                                 |Begining of the line
-|^                                 |End of the line
+|^                                 |Begining of the line
+|$                                 |End of the line
 |:n                                |Goto Line number **n**
 |G                                 |Goto the last line
 |:1                                |Goto the first line
