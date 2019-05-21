@@ -97,7 +97,6 @@ $ vi +/artificial sample.txt
 |:n                                |Goto Line number **n**
 |G                                 |Goto the last line
 |:1                                |Goto the first line
-| ------------- | ------------- |
 |:set number                       |Display line number
 |:set nonumber                     |Hide line number
 |:set hlsearch                     |Highlight Search
