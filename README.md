@@ -134,3 +134,8 @@ $ vi +/artificial sample.txt
 * [GitZip](http://kinolien.github.io/gitzip/)
 * [DownGit](https://minhaskamal.github.io/DownGit/#/home)
 
+
+### File Permissions
+* [File Permissions in Linux/Unix](https://www.guru99.com/file-permissions.html)
+* [Unix / Linux - File Permission / Access Modes](https://www.tutorialspoint.com/unix/unix-file-permission.htm)
+
