@@ -119,7 +119,7 @@ $ vi +/artificial sample.txt
 |P                                 |Paste it before your cursor
 |p                                 |Paste it after your cursor
 |:set hlsearch                     |Highlight Search
-|:nohl search                      |Remove the highlight of the previous search
+|:nohls                            |Remove the highlight of the previous search
 |:?<search_term/search_pattern>    |Search backward
 |:/<search_term/search_pattern>    |Search forward
 |:%s/old-string/new-string/        |Replace first occurrence of <old-string> with <new-string> on all lines  
