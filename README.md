@@ -147,3 +147,7 @@ $ vi +/artificial sample.txt
 ```bash
 $ /usr/sbin/ss -lptn 'sport = :8050'
 ```
+
+
+### HPC Commands
+* [Converting from PBS to Slurm](https://hpcc.usc.edu/support/documentation/pbs-to-slurm/)
