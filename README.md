@@ -78,6 +78,7 @@ $ tail -f script.log
 ### 5. vi commands
 * [Cheat Sheet](http://www.atmos.albany.edu/daes/atmclasses/atm350/vi_cheat_sheet.pdf)
 * [Cheat Sheet-II](http://www.cse.scu.edu/~yfang/coen11/vi-CheatSheet.pdf)
+* [Comment/Uncomment](https://unix.stackexchange.com/questions/120615/how-to-comment-multiple-lines-at-once)
 
 ```
 $ vi +commandHere fileName
