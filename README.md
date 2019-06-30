@@ -145,5 +145,5 @@ $ vi +/artificial sample.txt
 
 **Finding the PID of the process using a specific port**
 ```bash
-$ ss -lptn 'sport = :8050'
+$ /usr/sbin/ss -lptn 'sport = :8050'
 ```
