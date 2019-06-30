@@ -140,3 +140,5 @@ $ vi +/artificial sample.txt
 * [File Permissions in Linux/Unix](https://www.guru99.com/file-permissions.html)
 * [Unix / Linux - File Permission / Access Modes](https://www.tutorialspoint.com/unix/unix-file-permission.htm)
 
+### Linux Command line
+* [Ctrl+R to search and other terminal history tricks](https://lifehacker.com/ctrl-r-to-search-and-other-terminal-history-tricks-278888)
