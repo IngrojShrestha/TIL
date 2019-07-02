@@ -142,12 +142,3 @@ $ vi +/artificial sample.txt
 
 ### Linux Command line
 * [Ctrl+R to search and other terminal history tricks](https://lifehacker.com/ctrl-r-to-search-and-other-terminal-history-tricks-278888)
-
-**Finding the PID of the process using a specific port**
-```bash
-$ /usr/sbin/ss -lptn 'sport = :8050'
-```
-
-
-### HPC Commands
-* [Converting from PBS to Slurm](https://hpcc.usc.edu/support/documentation/pbs-to-slurm/)
