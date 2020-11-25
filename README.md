@@ -140,5 +140,18 @@ $ vi +/artificial sample.txt
 * [File Permissions in Linux/Unix](https://www.guru99.com/file-permissions.html)
 * [Unix / Linux - File Permission / Access Modes](https://www.tutorialspoint.com/unix/unix-file-permission.htm)
 
+### User access (directory)
+Find [owner and group name](https://www.cyberciti.biz/faq/find-the-group-name-of-the-folder-in-unix-linux/) of a folder.
+```
+ls -ld <folder>
+stat <folder>
+
+```
+
+List all ussers in the group 'group_name'
+```
+getent group <group_name>
+```
+
 ### Linux Command line
 * [Ctrl+R to search and other terminal history tricks](https://lifehacker.com/ctrl-r-to-search-and-other-terminal-history-tricks-278888)
