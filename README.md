@@ -148,7 +148,7 @@ stat <folder>
 
 ```
 
-List all ussers in the group 'group_name'
+List all users in the group 'group_name'
 ```
 getent group <group_name>
 ```
