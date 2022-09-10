@@ -155,3 +155,17 @@ getent group <group_name>
 
 ### Linux Command line
 * [Ctrl+R to search and other terminal history tricks](https://lifehacker.com/ctrl-r-to-search-and-other-terminal-history-tricks-278888)
+
+* [Download HTTP directory](https://stackoverflow.com/questions/23446635/how-to-download-http-directory-with-all-files-and-sub-directories-as-they-appear)
+```
+wget -r -np -nH --cut-dirs=3 -R index.html http://hostname/aaa/bbb/ccc/ddd/
+
+Explanation:
+
+    It will download all files and subfolders in ddd directory
+    -r : recursively
+    -np : not going to upper directories, like ccc/…
+    -nH : not saving files to hostname folder
+    --cut-dirs=3 : but saving it to ddd by omitting first 3 folders aaa, bbb, ccc
+    -R index.html : excluding index.html files
+```
